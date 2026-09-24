@@ -1,2 +1,2 @@
-# my-first-site
-Creating my first website
+# Hello World!
+This is my first mobile-friendly web app on GitHub.
