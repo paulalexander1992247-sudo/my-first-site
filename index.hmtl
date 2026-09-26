@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Health Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .habit-card {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        input[type="checkbox"] {
+            transform: scale(1.5);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Daily Health Tracker</h1>
+    <p>Tap your daily goals to track your progress!</p>
+
+    <div class="habit-card">
+        <span>💧 Drink 8 Glasses of Water</span>
+        <input type="checkbox">
+    </div>
+
+    <div class="habit-card">
+        <span>🚶 Take a 20-Minute Walk</span>
+        <input type="checkbox">
+    </div>
+
+    <div class="habit-card">
+        <span>😴 Get 8 Hours of Sleep</span>
+        <input type="checkbox">
+    </div>
+
+</body>
+</html>
